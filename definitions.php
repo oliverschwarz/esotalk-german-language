@@ -34,7 +34,7 @@ $definitions["%d year ago"] = "letztes Jahr";
 $definitions["%d years ago"] = "vor %d Jahren";
 
 $definitions["%s and %s"] = "%s und %s";
-$definitions["%s can view this conversation."] = "%s kann die Unterhaltung sehen.";
+$definitions["%s can view this conversation."] = "%s k&ouml;nnen die Unterhaltung sehen.";
 $definitions["%s changed %s's group to %s."] = "%s &auml;nderte %s's Gruppe zu %s.";
 $definitions["%s changed your group to %s."] = "%s &auml;nderte Deine Gruppe zo %s.";
 $definitions["%s conversation"] = "%s Unterhaltung";
@@ -174,7 +174,7 @@ $definitions["Global permissions"] = "Global permissions";
 $definitions["Go to top"] = "Nach oben";
 $definitions["Group name"] = "Gruppenname";
 $definitions["group.administrator"] = "Administrator";
-$definitions["group.administrator.plural"] = "Administrators";
+$definitions["group.administrator.plural"] = "Administratoren";
 $definitions["group.guest"] = "Gast";
 $definitions["group.guest.plural"] = "G&auml;ste";
 $definitions["group.member"] = "Mitglied";
