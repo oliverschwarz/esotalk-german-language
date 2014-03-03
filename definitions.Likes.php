@@ -4,8 +4,8 @@
 
 // English Definitions for the Profiles plugin.
 
-$definitions["Unlike"] = "Unlike";
-$definitions["Like"] = "Like";
-$definitions["Members Who Liked This Post"] = "Members Who Liked This Post";
-$definitions["%s likes this."] = "%s likes this.";
-$definitions["%s like this."] = "%s like this.";
+$definitions["Unlike"] = "Gef&auml;llt mir nicht mehr";
+$definitions["Like"] = "Gef&auml;llt mir";
+$definitions["Members Who Liked This Post"] = "Mitglieder, denen dieser Beitrag gefallen hat";
+$definitions["%s likes this."] = "Das gef&auml;llt %s.";
+$definitions["%s like this."] = "Das gef&auml;llt %s.";
