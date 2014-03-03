@@ -2,14 +2,14 @@
 // Copyright 2011 Toby Zerner, Simon Zerner
 // This file is part of esoTalk. Please see the included license file for usage information.
 
-ET::$languageInfo["English"] = array(
-	"locale" => "en-US",
-	"name" => "English",
-	"description" => "A casual English language pack.",
+ET::$languageInfo["German"] = array(
+	"locale" => "de-DE",
+	"name" => "German",
+	"description" => "German language pack.",
 	"version" => ESOTALK_VERSION,
-	"author" => "esoTalk Team",
-	"authorEmail" => "support@esotalk.org",
-	"authorURL" => "http://esotalk.org",
+	"author" => "Oliver Schwarz",
+	"authorEmail" => "oliver.schwarz@gmail.com",
+	"authorURL" => "http://github.com/oliverschwarz",
 	"license" => "GPLv2"
 );
 
@@ -18,44 +18,44 @@ $definitions["charset"] = "utf-8";
 
 $definitions["date.full"] = "j M Y, g:ia \G\M\TO"; // see http://au.php.net/manual/en/function.date.php for details
 
-$definitions["%d day ago"] = "yesterday";
-$definitions["%d days ago"] = "%d days ago";
-$definitions["%d hour ago"] = "1 hour ago";
-$definitions["%d hours ago"] = "%d hours ago";
-$definitions["%d minute ago"] = "1 minute ago";
-$definitions["%d minutes ago"] = "%d minutes ago";
-$definitions["%d month ago"] = "1 month ago";
-$definitions["%d months ago"] = "%d months ago";
-$definitions["%d second ago"] = "1 second ago";
-$definitions["%d seconds ago"] = "%d seconds ago";
-$definitions["%d week ago"] = "last week";
-$definitions["%d weeks ago"] = "%d weeks ago";
-$definitions["%d year ago"] = "last year";
-$definitions["%d years ago"] = "%d years ago";
+$definitions["%d day ago"] = "gestern";
+$definitions["%d days ago"] = "vor %d Tagen";
+$definitions["%d hour ago"] = "vor 1 Stunde";
+$definitions["%d hours ago"] = "vor %d Stunden";
+$definitions["%d minute ago"] = "vor 1 Minute";
+$definitions["%d minutes ago"] = "vor %d Minuten";
+$definitions["%d month ago"] = "vor 1 Monat";
+$definitions["%d months ago"] = "vor %d Monaten";
+$definitions["%d second ago"] = "vor 1 Sekunde";
+$definitions["%d seconds ago"] = "vor %d Sekunden";
+$definitions["%d week ago"] = "letzte Woche";
+$definitions["%d weeks ago"] = "vor %d Wochen";
+$definitions["%d year ago"] = "letztes Jahr";
+$definitions["%d years ago"] = "vor %d Jahren";
 
-$definitions["%s and %s"] = "%s and %s";
-$definitions["%s can view this conversation."] = "%s can view this conversation.";
-$definitions["%s changed %s's group to %s."] = "%s changed %s's group to %s.";
-$definitions["%s changed your group to %s."] = "%s changed your group to %s.";
-$definitions["%s conversation"] = "%s conversation";
-$definitions["%s conversations"] = "%s conversations";
+$definitions["%s and %s"] = "%s und %s";
+$definitions["%s can view this conversation."] = "%s kann die Unterhaltung sehen.";
+$definitions["%s changed %s's group to %s."] = "%s &auml;nderte %s's Gruppe zu %s.";
+$definitions["%s changed your group to %s."] = "%s &auml;nderte Deine Gruppe zo %s.";
+$definitions["%s conversation"] = "%s Unterhaltung";
+$definitions["%s conversations"] = "%s Unterhaltungen";
 $definitions["%s invited you to %s."] = "%s invited you to %s.";
-$definitions["%s joined the forum."] = "%s joined the forum.";
-$definitions["%s post"] = "%s post";
-$definitions["%s posted %s"] = "%s posted %s";
-$definitions["%s posted in %s."] = "%s posted in %s.";
-$definitions["%s posts"] = "%s posts";
-$definitions["%s reply"] = "%s reply";
-$definitions["%s replies"] = "%s replies";
-$definitions["%s Settings"] = "%s Settings";
-$definitions["%s started the conversation %s."] = "%s started the conversation %s.";
-$definitions["%s tagged you in a post."] = "%s mentioned you in a post.";
-$definitions["%s will be able to view this conversation."] = "%s will be able to view this conversation.";
+$definitions["%s joined the forum."] = "%s ist dem Forum beigetreten.";
+$definitions["%s post"] = "%s Beitrag";
+$definitions["%s posted %s"] = "%s schrieb %s";
+$definitions["%s posted in %s."] = "%s schrieb in %s.";
+$definitions["%s posts"] = "%s Beitr&auml;ge";
+$definitions["%s reply"] = "%s Antwort";
+$definitions["%s replies"] = "%s Antworten";
+$definitions["%s Settings"] = "%s Einstellungen";
+$definitions["%s started the conversation %s."] = "%s beginnt die Unterhaltung %s.";
+$definitions["%s tagged you in a post."] = "%s erw&auml;hnte Dich in einem Beitrag.";
+$definitions["%s will be able to view this conversation."] = "%s wird diese Unterhaltung sehen k&ouml;nnen.";
 $definitions["%s will be able to:"] = "%s will be able to:";
 
-$definitions["Success!"] = "Success!";
-$definitions["A new version of esoTalk (%s) is available."] = "A new version of esoTalk (%s) is available.";
-$definitions["a private conversation"] = "a private conversation";
+$definitions["Success!"] = "Erfolg!";
+$definitions["A new version of esoTalk (%s) is available."] = "Eine neue esoTalk-Version (%s) ist verf&uuml;gbar.";
+$definitions["a private conversation"] = "eine private Unterhaltung";
 $definitions["Access the administrator control panel."] = "Access the administrator control panel.";
 $definitions["Account type"] = "Account type";
 $definitions["Activate"] = "Activate";
