@@ -11,4 +11,4 @@ There already had bin a [german language pack](https://github.com/mic-git/esoTal
 
 ## About the use of words
 
-There will be no harsh language in the translations. Despite the fact that German words and sentences are often longer than English ones, I will try to translate _to the point_ without losing the meaning.
+There will be no harsh language in the translations. Despite the fact that German words and sentences are often longer than English ones, I will try to translate _to the point_ without loss the meaning.
