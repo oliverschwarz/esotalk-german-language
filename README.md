@@ -1,4 +1,14 @@
-German translation for the esoTalk forum software
-=================================================
+esoTalk: German language pack
+=============================
 
-esoTalk is a fat-free forum software developed by @tobscure - and it's great! It's currently available in version 1.0.0g. This repository contains the german translation.
+## About esoTalk
+
+esoTalk is a _fat-free forum software_ developed by [@tobscure](https://twitter.com/tobscure) - and it's great. It is currently available in version 1.0.0g.
+
+## About the language pack
+
+There already had bin a [german language pack](https://github.com/mic-git/esoTalk-german-translation) but it had been discontinued and is outdated now (it partly still works, though). So I decided to translate my own.
+
+## About the use of words
+
+There will be no harsh language in the translations. Due to the fact that German words and sentences are often longer than English ones, I will try to translate _to the point_ without losing the meaning.
