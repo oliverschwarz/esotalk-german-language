@@ -362,8 +362,8 @@ $definitions["Untitled conversation"] = "(Ohne Titel)";
 $definitions["Upgrade esoTalk"] = "esoTalk aktualisieren";
 $definitions["Use a background image"] = "Hintergrundbild benutzen";
 $definitions["Use for mobile"] = "Use for mobile";
-$definitions["Use friendly URLs"] = "Use friendly URLs";
-$definitions["Used to verify your account and subscribe to conversations"] = "Used to verify your account and subscribe to conversations";
+$definitions["Use friendly URLs"] = "Benutze freundliche URLs";
+$definitions["Used to verify your account and subscribe to conversations"] = "Wird benutzt, um Deinen Zugang zu verifizieren und Kan&auml;le zu abonnieren";
 $definitions["Username"] = "Benutzername";
 $definitions["Username or Email"] = "Benutzername und E-Mail";
 
@@ -392,10 +392,10 @@ $definitions["message.ajaxRequestPending"] = "Hey! Wir speichern gerade noch Dei
 $definitions["message.avatarError"] = "Dein Avatar konnte nicht hochgeladen werden. Bitte verwende nur g&uuml;ltige Bild-Typen (wie .jpg, .png, or .gif) und Bilder, die nicht so riiiiieesig sind.";
 $definitions["message.cannotDeleteLastChannel"] = "Bitte nicht! Du kannst nicht den letzten Kanal l&ouml;schen! Wo sollen denn die ganzen Unterhaltungen hingehen? Das ist ein bisschen verr&uuml:ckt.";
 $definitions["message.changesSaved"] = "Deine &Auml;nderungen wurden gespeichert.";
-$definitions["message.channelsHelp"] = "Channels are used to categorize conversations on your forum. You can create as many channels as needed, and rearrange/nest them by dragging and dropping below.";
-$definitions["message.channelSlugTaken"] = "This slug is already in use by another channel.";
-$definitions["message.confirmDelete"] = "Are you sure you want to delete this? Seriously, you won't be able to get it back.";
-$definitions["message.confirmDiscardReply"] = "You have not saved your reply as a draft. Do you wish to discard it?";
+$definitions["message.channelsHelp"] = "Kan&auml;le k&ouml;nnen verwendet werden, um Deine Unterhaltungen zu kategorisieren. Du kannst soviele Kan&auml;le anlegen, wie Du m&ouml;chtest, und sie per Drag &amp; Drop anordnen.";
+$definitions["message.channelSlugTaken"] = "Diese Kurz-URI wird schon in einem anderen Kanal verwendet.";
+$definitions["message.confirmDelete"] = "Bist Du sicher, dass Du das l&ouml;schen willst? Ehrlich, Du wirst es nicht mehr zur&uum;ckbekommen.";
+$definitions["message.confirmDiscardReply"] = "Du hast Deine Antwort noch nicht als Entwurf gespeichert. Bist Du sicher, dass Du sie verwerfen willst?";
 $definitions["message.confirmEmail"] = "Before you can start using your newly-created account, you'll need to confirm your email address. Within the next minute or two you should receive an email from us containing a link to activate your account.";
 $definitions["message.confirmLeave"] = "Woah, you haven't saved the stuff you are editing! If you leave this page, you'll lose any changes you've made. Is this ok?";
 $definitions["message.connectionError"] = "esoTalk could not connect to the MySQL server. The error returned was:<br/>%s";
@@ -531,31 +531,31 @@ $definitions["gambit.limit:"] = "limit:";
 // In other words, when you type "active today", the gambit system interprets it as if you typed "active 1 day".
 // The first of each pair, the alias, can be anything you want.
 // The second, however, must fit with the regular expression pattern defined below (more on that later.)
-$definitions["gambit.active today"] = "active today"; // what appears in the gambit cloud
-$definitions["gambit.active 1 day"] = "active 1 day"; // what it actually evaluates to
+$definitions["gambit.active today"] = "Heute aktiv"; // what appears in the gambit cloud
+$definitions["gambit.active 1 day"] = "1 Tag Aktiv"; // what it actually evaluates to
 
-$definitions["gambit.has replies"] = "has replies";
-$definitions["gambit.has >0 replies"] = "has >0 replies";
-$definitions["gambit.has >10 replies"] = "has >10 replies";
+$definitions["gambit.has replies"] = "hat Antworten";
+$definitions["gambit.has >0 replies"] = "hat >0 Antworten";
+$definitions["gambit.has >10 replies"] = "hat >10 Antworten";
 
-$definitions["gambit.has no replies"] = "has no replies";
-$definitions["gambit.has 0 replies"] = "has 0 replies";
+$definitions["gambit.has no replies"] = "hat keine Antworten";
+$definitions["gambit.has 0 replies"] = "hat 0 Antworten";
 
 $definitions["gambit.dead"] = "dead";
-$definitions["gambit.active >30 day"] = "active >30 day";
+$definitions["gambit.active >30 day"] = ">30 Tage aktiv";
 
 // Units of time
 // These are used in the active gambit.
 // ex. "[active] [>|<|>=|<=|last] 180 [second|minute|hour|day|week|month|year]"
-$definitions["gambit.second"] = "second";
-$definitions["gambit.minute"] = "minute";
-$definitions["gambit.hour"] = "hour";
-$definitions["gambit.day"] = "day";
-$definitions["gambit.week"] = "week";
-$definitions["gambit.month"] = "month";
-$definitions["gambit.year"] = "year";
-$definitions["gambit.last"] = "last"; // as in "active last 180 days"
-$definitions["gambit.active"] = "active"; // as in "active last 180 days"
+$definitions["gambit.second"] = "Sekunde";
+$definitions["gambit.minute"] = "Minute";
+$definitions["gambit.hour"] = "Stunde";
+$definitions["gambit.day"] = "Tag";
+$definitions["gambit.week"] = "Woche";
+$definitions["gambit.month"] = "Monat";
+$definitions["gambit.year"] = "Jahr";
+$definitions["gambit.last"] = "zuletzt"; // as in "active last 180 days"
+$definitions["gambit.active"] = "Aktiv"; // as in "active last 180 days"
 
 // Now the hard bit. This is a regular expression to test for the "active" gambit.
 // The group (?<a> ... ) is the comparison operator (>, <, >=, <=, or last).
