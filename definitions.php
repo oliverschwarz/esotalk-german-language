@@ -398,10 +398,10 @@ $definitions["message.confirmDelete"] = "Bist Du sicher, dass Du das l&ouml;sche
 $definitions["message.confirmDiscardReply"] = "Du hast Deine Antwort noch nicht als Entwurf gespeichert. Bist Du sicher, dass Du sie verwerfen willst?";
 $definitions["message.confirmEmail"] = "Bevor Du mit Deinem neuen Zugang arbeiten kannst, mu&szlig;t Du zuerst Deine E-Mailadresse best&auml;tigen. In den n&auml;chsten Minuten erh&auml;ltst Du von uns eine E-Mail mit einem Link, mit dem Du Deine Mitgliedschaft bestätigen kannst.";
 $definitions["message.confirmLeave"] = "Woah, Du hast Deinen Entwurf nicht gespeichert! Sobald Du diese Seite verl&auml;sst, verlierst Du alle ggf. eingegebenen Daten. Is this ok?";
-$definitions["message.connectionError"] = "esoTalk could not connect to the MySQL server. The error returned was:<br/>%s";
-$definitions["message.conversationDeleted"] = "The conversation was deleted. Didn't that feel good?";
-$definitions["message.conversationNotFound"] = "For some reason this conversation cannot be viewed. It may not exist, or you may not have permission to view it.";
-$definitions["message.cookieAuthenticationTheft"] = "For security reasons, we couldn't log you in with your 'remember me' cookie. Please log in manually!";
+$definitions["message.connectionError"] = "esoTalk konnte sich nicht mit dem MySQL-Server verbinden. Der Fehler war:<br/>%s";
+$definitions["message.conversationDeleted"] = "Die Unterhaltung wurde gel&ouml;scht. Hat das nicht gut getan?";
+$definitions["message.conversationNotFound"] = "Aus irgendwelchen Gr&uuml;nden kann diese Unterhaltung nicht angesehen werden. Vielleicht gibt es sie gar nicht, oder Du hast nicht die richtigen Berechtigungen.";
+$definitions["message.cookieAuthenticationTheft"] = "Aus Sicherheitsgr&uuml;nden konnten wir Dich nicht mit Deinem 'remember me'-Cookie anmelden. Bitte melde Dich am Login an!";
 $definitions["message.deleteChannelHelp"] = "Woah, hold up there! If you delete this channel, there'll be no way to get it back. Unless you build a time machine. But, uh, there'll be no <em>easy</em> way to get it back. All of the conversations in this channel can be moved to another of your choice.";
 $definitions["message.emailConfirmed"] = "Cool! Your account has been validated and you can now start participating in conversations. Why not <a href='".URL("conversation/start")."'>start one</a> yourself?";
 $definitions["message.emailDoesntExist"] = "That email address doesn't match any members in the database. Did you make a typo?";
