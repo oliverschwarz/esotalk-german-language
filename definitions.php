@@ -475,16 +475,16 @@ $definitions["message.registerGlobalsWarning"] = "PHP's <strong>register_globals
 $definitions["message.registrationClosed"] = "Registration on this forum is not open to the public.";
 $definitions["message.removeDirectoryWarning"] = "Hey! Looks like you haven't deleted the <code>%s</code> directory like we told you to! You probably should, just to make sure those hackers can't do anything naughty.";
 $definitions["message.safeModeWarning"] = "<strong>Safe mode</strong> is enabled.<br/><small>This could potentially cause problems with esoTalk, but you can still proceed if you cannot turn it off.</small>";
-$definitions["message.searchAllConversations"] = "Try searching for this term across all conversations.";
-$definitions["message.setNewPassword"] = "Alright! Now, what do you want your new password to be?";
+$definitions["message.searchAllConversations"] = "Versuche doch, diesen Suchbegriff in allen Unterhaltungen zu suchen.";
+$definitions["message.setNewPassword"] = "Sehr gut! Was soll Dein neues Passwort sein?";
 $definitions["message.skinUninstalled"] = "The skin was uninstalled.";
 $definitions["message.suspended"] = "Ouch! A forum moderator has <strong>suspended</strong> your account. It sucks, but until the suspension is lifted you won't be able to do much around here. Hey, screw them!";
 $definitions["message.suspendMemberHelp"] = "Suspending %s will prevent them from replying to conversations, starting conversations, and viewing private conversations. They will effectively have the same permissions as a guest.";
 $definitions["message.tablePrefixConflict"] = "The installer has detected that there is another installation of esoTalk in the same MySQL database with the same table prefix.<br/>To overwrite this installation of esoTalk, click 'Install My Forum' again. <strong>All data will be lost.</strong><br/>If you wish to create another esoTalk installation alongside the existing one, <strong>change the table prefix</strong>.";
 $definitions["message.unsuspendMemberHelp"] = "Unsuspending %s will enable them to participate in conversations on this forum again.";
-$definitions["message.upgradeSuccessful"] = "esoTalk was successfully upgraded.";
+$definitions["message.upgradeSuccessful"] = "esoTalk wurde erfolgreich aktualisiert.";
 $definitions["message.waitToReply"] = "You must wait at least %s seconds between starting or replying to conversations. Take a deep breath and try again.";
-$definitions["message.waitToSearch"] = "Woah, slow down! Looks like you're trying to perform a few too many searches. Wait %s seconds and try again.";
+$definitions["message.waitToSearch"] = "Woah, langsam! Sieht so aus, als w&uuml;rdest Du zu viele Suchanfragen abschicken. Warte bitte %s Sekunden und versuche es nochmal.";
 
 
 // Emails.
