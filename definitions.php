@@ -428,14 +428,14 @@ $definitions["message.gambitsHelp"] = "Gambits are phrases that describe what yo
 $definitions["message.gdNotEnabledWarning"] = "The <strong>GD extension</strong> is not enabled.<br/><small>This is required to resize and save avatars. Get your host or administrator to install/enable it.</small>";
 $definitions["message.greaterMySQLVersionRequired"] = "You must have <strong>MySQL 4 or greater</strong> installed and the <a href='http://php.net/manual/en/mysql.installation.php' target='_blank'>MySQL extension enabled in PHP</a>.<br/><small>Please install/upgrade both of these requirements or request that your host or administrator install them.</small>";
 $definitions["message.greaterPHPVersionRequired"] = "Your server must have <strong>PHP 5.0.0 or greater</strong> installed to run esoTalk.<br/><small>Please upgrade your PHP installation or request that your host or administrator upgrade the server.</small>";
-$definitions["message.incorrectLogin"] = "Your login details were incorrect.";
-$definitions["message.incorrectPassword"] = "Your current password is incorrect.";
+$definitions["message.incorrectLogin"] = "Diese Zugangsdaten sind nicht korrekt.";
+$definitions["message.incorrectPassword"] = "Das aktuelle Passwort ist nicht korrekt.";
 $definitions["message.installerAdminHelp"] = "esoTalk will use the following information to set up your administrator account on your forum.";
 $definitions["message.installerFilesNotWritable"] = "esoTalk cannot write to the following files/folders: <strong>%s</strong>.<br/><small>To resolve this, you must navigate to these files/folders in your FTP client and <strong>chmod</strong> them to <strong>777</strong>.</small>";
 $definitions["message.installerMySQLHelp"] = "esoTalk needs access to a MySQL database to store all your forum's data in, such as conversations and posts. If you're unsure of any of these details, you may need to ask your hosting provider.";
 $definitions["message.installerWelcome"] = "<p>Welcome to the esoTalk installer! We need a few details from you so we can get your forum set up and ready to go.</p>\n<p>If you have any trouble, get help on the <a href='%s'>esoTalk support forum</a>.</p>";
 $definitions["message.invalidChannel"] = "You selected an invalid channel!";
-$definitions["message.invalidEmail"] = "Seems this email address isn't valid...";
+$definitions["message.invalidEmail"] = "Diese E-Mailadresse sieht nicht richtig aus...";
 $definitions["message.invalidUsername"] = "You must choose a username between 3 and 20 alphanumeric characters.";
 $definitions["message.javascriptRequired"] = "This page requires JavaScript to function properly. Please enable it!";
 $definitions["message.languageUninstalled"] = "The language was uninstalled.";
