@@ -5,9 +5,9 @@
 // English Definitions for the BBCode plugin.
 
 $definitions["Code"] = "Code";
-$definitions["Image"] = "Image";
+$definitions["Image"] = "Bild";
 $definitions["Link"] = "Link";
-$definitions["Strike"] = "Strike";
-$definitions["Header"] = "Header";
-$definitions["Italic"] = "Italic";
-$definitions["Bold"] = "Bold";
+$definitions["Strike"] = "Durchgestrichen";
+$definitions["Header"] = "Überschrift";
+$definitions["Italic"] = "Kursiv";
+$definitions["Bold"] = "Fett";
