@@ -4,6 +4,6 @@
 
 // English Definitions for the Profiles plugin.
 
-$definitions["gambit.order by views"] = "order by views";
+$definitions["gambit.order by views"] = "Nach Aufrufen sortieren";
 $definitions["%s view"] = "%s view";
 $definitions["%s views"] = "%s views";
