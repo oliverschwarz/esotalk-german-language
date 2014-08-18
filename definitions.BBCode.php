@@ -8,6 +8,6 @@ $definitions["Code"] = "Code";
 $definitions["Image"] = "Bild";
 $definitions["Link"] = "Link";
 $definitions["Strike"] = "Durchgestrichen";
-$definitions["Header"] = "Überschrift";
+$definitions["Header"] = "&Uuml;berschrift";
 $definitions["Italic"] = "Kursiv";
 $definitions["Bold"] = "Fett";
