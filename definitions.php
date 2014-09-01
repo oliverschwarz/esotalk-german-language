@@ -501,14 +501,14 @@ $definitions["message.removeDirectoryWarning"] = "Hey! Looks like you haven't de
 $definitions["message.safeModeWarning"] = "<strong>Safe mode</strong> is enabled.<br/><small>This could potentially cause problems with esoTalk, but you can still proceed if you cannot turn it off.</small>";
 $definitions["message.searchAllConversations"] = "Versuche doch, diesen Suchbegriff in allen Unterhaltungen zu suchen.";
 $definitions["message.setNewPassword"] = "Sehr gut! Was soll Dein neues Passwort sein?";
-$definitions["message.skinUninstalled"] = "The skin was uninstalled.";
-$definitions["message.suspended"] = "Ouch! A forum moderator has <strong>suspended</strong> your account. It sucks, but until the suspension is lifted you won't be able to do much around here. Hey, screw them!";
-$definitions["message.suspendMemberHelp"] = "Suspending %s will prevent them from replying to conversations, starting conversations, and viewing private conversations. They will effectively have the same permissions as a guest.";
+$definitions["message.skinUninstalled"] = "Das Skin wurde de-installiert.";
+$definitions["message.suspended"] = "Aua! Ein Moderator hat Deinen Zugang <strong>eingefroren</strong>. Das ist doof, aber bis das nicht aufgehoben worden ist, wirst Du hier nichts tun k&ouml;nnen.";
+$definitions["message.suspendMemberHelp"] = "%s einzufrieren wird verhindern, dass ein Post geschrieben oder eine Antwort verfasst werden kann. Auch private Gespr&auml;che sind nicht mehr m&ouml;glich. Die Rechte sind denen eines Gastes &auml;hnlich.";
 $definitions["message.tablePrefixConflict"] = "The installer has detected that there is another installation of esoTalk in the same MySQL database with the same table prefix.<br/>To overwrite this installation of esoTalk, click 'Install My Forum' again. <strong>All data will be lost.</strong><br/>If you wish to create another esoTalk installation alongside the existing one, <strong>change the table prefix</strong>.";
 $definitions["message.unsuspendMemberHelp"] = "Unsuspending %s will enable them to participate in conversations on this forum again.";
 $definitions["message.upgradeSuccessful"] = "esoTalk wurde erfolgreich aktualisiert.";
 $definitions["message.waitForApproval"] = "Bevor Du Deinen neuen Account benutzen kannst, muss dieser durch einen  Administrator best&auml;tigt werden. Wir senden Dir eine E-Mail, sobald Dein Account freigegeben wurde.";
-$definitions["message.waitToReply"] = "You must wait at least %s seconds between starting or replying to conversations. Take a deep breath and try again.";
+$definitions["message.waitToReply"] = "Du musst mindestens %s Sekunden nach dem Post warten, bevor Du antworten darfst. Tief durchatmen und noch einmal probieren.";
 $definitions["message.waitToSearch"] = "Woah, langsam! Sieht so aus, als w&uuml;rdest Du zu viele Suchanfragen abschicken. Warte bitte %s Sekunden und versuche es nochmal.";
 
 
