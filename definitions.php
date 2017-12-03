@@ -205,6 +205,7 @@ $definitions["Home page"] = "Startseite";
 $definitions["HTML is allowed."] = "HTML ist erlaubt.";
 
 $definitions["If you run into any other problems or just want some help with the installation, feel free to ask for assistance at the <a href='%s'>esoTalk support forum</a>."] = "Wenn Du Probleme oder Fragen bei der Installation hast, kannst Du im <a href='%s'>esoTalk Support Forum</a> einfach um Hilfe bitten.";
+$definitions["Ignore conversation"] = "Unterhaltung ignorieren";
 $definitions["Install esoTalk"] = "Installiere esoTalk";
 $definitions["Install My Forum"] = "Installiere My Forum";
 $definitions["Installed Languages"] = "Installierte Sprachen";
@@ -224,7 +225,7 @@ $definitions["label.draft"] = "Entwurf";
 $definitions["label.locked"] = "Gesperrt";
 $definitions["label.ignored"] = "Ignoriert";
 $definitions["label.private"] = "Privat";
-$definitions["label.sticky"] = "Sticky";
+$definitions["label.sticky"] = "Angeheftet";
 $definitions["Labels"] = "Label";
 $definitions["Last active"] = "Zuletzt aktiv";
 $definitions["Last active %s"] = "Zuletzt aktiv %s";
@@ -303,6 +304,7 @@ $definitions["Posts"] = "Beitr&auml;ge";
 $definitions["Powered by"] = "Powered by";
 $definitions["Preview"] = "Vorschau";
 $definitions["Previous"] = "&Auml;ltere";
+$definitions["Privacy"] = "Privatsph&auml;re";
 
 $definitions["Quote"] = "Zitat";
 $definitions["quote"] = "zitieren";
@@ -358,7 +360,7 @@ $definitions["statistic.online.plural"] = "%s online";
 $definitions["statistic.online"] = "%s online";
 $definitions["statistic.post.plural"] = "%s Beitr&auml;ge";
 $definitions["statistic.post"] = "%s Beitrag";
-$definitions["Sticky"] = "Sticky";
+$definitions["Sticky"] = "Anheften";
 $definitions["Subscribe"] = "Abonnieren";
 $definitions["Subscribed"] = "Abonniert";
 $definitions["Subscription"] = "Abonnement";
@@ -542,22 +544,23 @@ $definitions["email.post.body"] = "<p><strong>%1\$s</strong> hat auf eine Unterh
 // These gambits are pretty much evaluated as-they-are.
 // tag:, author:, contributor:, and quoted: are combined with a value after the colon (:).
 // For example: tag:video games, author:myself
-$definitions["gambit.author:"] = "author:";
-$definitions["gambit.contributor:"] = "teilnehmer:";
-$definitions["gambit.member"] = "mitgleid";
+$definitions["gambit.author:"] = "Autor: ";
+$definitions["gambit.contributor:"] = "Teilnehmer: ";
+$definitions["gambit.member"] = "Mitglied";
 $definitions["gambit.myself"] = "ich";
-$definitions["gambit.draft"] = "entwurf";
+$definitions["gambit.draft"] = "Entwurf";
 $definitions["gambit.locked"] = "geschlossen";
 $definitions["gambit.order by newest"] = "sortiere nach Datum";
 $definitions["gambit.order by replies"] = "sortiere nach Antworten";
 $definitions["gambit.private"] = "privat";
-$definitions["gambit.random"] = "zufall";
+$definitions["gambit.random"] = "zuf&auml;llig";
 $definitions["gambit.reverse"] = "Reihenfolge umkehren";
 $definitions["gambit.starred"] = "verfolgt";
 $definitions["gambit.ignored"] = "ignoriert";
-$definitions["gambit.sticky"] = "angepint";
+$definitions["gambit.sticky"] = "angeheftet";
+$definitions["gambit.title:"] = "Titel: ";
 $definitions["gambit.unread"] = "ungelesen";
-$definitions["gambit.limit:"] = "limit:";
+$definitions["gambit.limit:"] = "Limit: ";
 
 // Aliases
 // These are gambits which tell the gambit system to use another gambit.
@@ -574,7 +577,7 @@ $definitions["gambit.has >10 replies"] = "hat >10 Antworten";
 $definitions["gambit.has no replies"] = "hat keine Antworten";
 $definitions["gambit.has 0 replies"] = "hat 0 Antworten";
 
-$definitions["gambit.dead"] = "tot";
+$definitions["gambit.dead"] = "inaktiv";
 $definitions["gambit.active >30 day"] = ">30 Tage aktiv";
 
 // Units of time
@@ -588,7 +591,7 @@ $definitions["gambit.week"] = "Woche";
 $definitions["gambit.month"] = "Monat";
 $definitions["gambit.year"] = "Jahr";
 $definitions["gambit.last"] = "zuletzt"; // as in "active last 180 days"
-$definitions["gambit.active"] = "Aktiv"; // as in "active last 180 days"
+$definitions["gambit.active"] = "aktiv"; // as in "active last 180 days"
 
 // Now the hard bit. This is a regular expression to test for the "active" gambit.
 // The group (?<a> ... ) is the comparison operator (>, <, >=, <=, or last).
@@ -600,8 +603,8 @@ $definitions["gambit.gambitActive"] = "/^{$definitions["gambit.active"]} *(?<a>>
 
 // These appear in the tag cloud. They must fit the regular expression pattern where the ? is a number.
 // If the regular expression pattern has been reordered, these gambits must also be reordered (as well as the ones in aliases.)
-$definitions["gambit.active last ? hours"] = "{$definitions["gambit.active"]} {$definitions["gambit.last"]} ? {$definitions["gambit.hour"]}s";
-$definitions["gambit.active last ? days"] = "{$definitions["gambit.active"]} {$definitions["gambit.last"]} ? {$definitions["gambit.day"]}s";
+$definitions["gambit.active last ? hours"] = "{$definitions["gambit.active"]} {$definitions["gambit.last"]} ? {$definitions["gambit.hour"]}n";
+$definitions["gambit.active last ? days"] = "{$definitions["gambit.active"]} {$definitions["gambit.last"]} ? {$definitions["gambit.day"]}e";
 
 // This is similar to the regular expression for the active gambit, but for the "has n reply(s)" gambit.
 // Usually you just need to change the "has" and "repl".

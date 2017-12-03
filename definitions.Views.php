@@ -2,8 +2,8 @@
 // Copyright 2013 Toby Zerner, Simon Zerner
 // This file is part of esoTalk. Please see the included license file for usage information.
 
-// English Definitions for the Profiles plugin.
+// German definitions for the Views plugin.
 
 $definitions["gambit.order by views"] = "Nach Aufrufen sortieren";
-$definitions["%s view"] = "%s view";
-$definitions["%s views"] = "%s views";
+$definitions["%s view"] = "%s Aufruf";
+$definitions["%s views"] = "%s Aufrufe";
